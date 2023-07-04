@@ -28,7 +28,7 @@ certbot certonly \
   --agree-tos \
   --key-type rsa \
   --rsa-key-size 2048 \
-  --email rajasimmman.s@optit.in \
+  --email "support@${DOMAIN}" \
   --config-dir "${LETSENCRYPT_DIR}/config" \
   --work-dir "${LETSENCRYPT_DIR}" \
   --logs-dir "${LETSENCRYPT_DIR}/logs" \
